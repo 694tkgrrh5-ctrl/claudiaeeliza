@@ -1,9 +1,11 @@
-<style>
-summary {
+details summary {
   list-style: none;
 }
 
-summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
   display: none;
 }
-</style>
+
+details > summary {
+  cursor: pointer;
+}
